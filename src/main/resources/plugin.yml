@@ -1,0 +1,17 @@
+
+name: TeamTags
+version: '1.0.0'
+main: com.tuservidor.teamtags.TeamTagsPlugin
+api-version: '26.2'
+description: Etiquetas de lideres, equipos y recompensa
+
+commands:
+  teams:
+    description: Administra los roles de TeamTags
+    usage: /teams
+    permission: teamtags.admin
+
+permissions:
+  teamtags.admin:
+    description: Permite administrar los roles
+    default: op
